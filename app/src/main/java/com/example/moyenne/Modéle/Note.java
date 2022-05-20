@@ -1,13 +1,5 @@
 package com.example.moyenne.Modéle;
 
-import android.content.ContentValues;
-import android.database.Cursor;
-import android.database.SQLException;
-import android.database.sqlite.SQLiteDatabase;
-import android.widget.Toast;
-
-import com.example.moyenne.Controller.MyDatabaseHelpter;
-
 public class Note {
     private int idModule;
     private String nom;

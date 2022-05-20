@@ -16,6 +16,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.moyenne.Modéle.MyDatabaseHelpter;
 import com.example.moyenne.R;
 import com.example.moyenne.Vue.SemestredeuxActivity;
 import com.example.moyenne.Vue.SemestreunActivity;

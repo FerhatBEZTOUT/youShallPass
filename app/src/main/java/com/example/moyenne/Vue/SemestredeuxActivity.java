@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.moyenne.Controller.ModuleAdapter;
-import com.example.moyenne.Controller.MyDatabaseHelpter;
+import com.example.moyenne.Modéle.MyDatabaseHelpter;
 import com.example.moyenne.Modéle.Module;
 import com.example.moyenne.R;
 

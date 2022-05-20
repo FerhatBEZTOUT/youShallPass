@@ -1,4 +1,4 @@
-package com.example.moyenne.Controller;
+package com.example.moyenne.Modéle;
 
 import android.app.Activity;
 import android.content.ContentValues;

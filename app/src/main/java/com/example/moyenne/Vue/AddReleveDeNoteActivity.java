@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.moyenne.Controller.MyDatabaseHelpter;
+import com.example.moyenne.Modéle.MyDatabaseHelpter;
 import com.example.moyenne.R;
 
 public class AddReleveDeNoteActivity extends AppCompatActivity {

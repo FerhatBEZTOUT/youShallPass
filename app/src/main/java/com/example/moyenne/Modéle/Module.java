@@ -4,8 +4,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.moyenne.Controller.MyDatabaseHelpter;
-
 public class Module {
     private int id;
     private String intitule;

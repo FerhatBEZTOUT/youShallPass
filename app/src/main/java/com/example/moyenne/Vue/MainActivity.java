@@ -7,11 +7,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.moyenne.Controller.MyDatabaseHelpter;
+import com.example.moyenne.Modéle.MyDatabaseHelpter;
 import com.example.moyenne.Controller.ReleveDeNoteAdapter;
 import com.example.moyenne.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
