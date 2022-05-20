@@ -158,15 +158,12 @@ public class SemestreunActivity extends AppCompatActivity {
                 int j = i;
                 int rvChildNumber = recyclerView.getChildCount();
             while (j<rvChildNumber) {
-                Log.d("(i,j):",String.valueOf(i)+","+String.valueOf(j));
+
                 RecyclerView.ViewHolder h1 = recyclerView.getChildViewHolder(recyclerView.getChildAt(j));
                 Button btnCalcMoyMod = h1.itemView.findViewById(R.id.btnCalcModule);
                 btnCalcMoyMod.performClick();
                 j++;
-                //TextView moyModuleText = h1.itemView.findViewById(R.id.textViewMoyModule);
-                //TextView coefModuleText = h1.itemView.findViewById(R.id.coefContainer);
-                //double moyModule = Double.valueOf(moyModuleText.getText().toString());
-                //int coefModule = Integer.valueOf(coefModuleText.getText().toString());
+
             }
             i += rvChildNumber;
             }
